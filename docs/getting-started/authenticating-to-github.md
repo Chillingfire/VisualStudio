@@ -9,7 +9,7 @@
 1. Click the **Connect** link in the GitHub section.
         <a href="images/sign-in-to-github-provider.png?raw=true" target="_blank"><div><img src="images/sign-in-to-github-provider.png" alt="Connect to GitHub" height="300px"/></div></a>   
 
-   If you're connected to a TFS instance, click on the **Sign in** link instead
+   If you're connected to a TFS instance, click on the **Sign in** link instead.
    <a href="images/sign-in-to-github.png?raw=true" target="_blank"><div><img src="images/sign-in-to-github.png" alt="Sign in to GitHub" width="300px"/></div></a>  
 
    If none of these options are visible, click **Manage Connections** and then **Connect to GitHub**.  
@@ -37,14 +37,14 @@ Before you authenticate, you must already have a GitHub or GitHub Enterprise acc
 
 ### Personal access tokens
 
-If all signin options above fail, you can manually create a personal access token and use it as your password.
+If all sign-in options above fail, you can manually create a personal access token and use it as your password.
 
 The scopes for the personal access token are: `user`, `repo`, `gist`, and `write:public_key`. 
-- *user* scope: Grants access to the user profile data. We currently use this to display your avatar and check whether your plans lets you publish private repositories.
+- *user* scope: Grants access to the user profile data. We currently use this to display your avatar and check whether your plan lets you publish private repositories.
 - *repo* scope: Grants read/write access to code, commit statuses, invitations, collaborators, adding team memberships, and deployment statuses for public and private repositories and organizations. This is needed for all git network operations (push, pull, fetch), and for getting information about the repository you're currently working on.
-- *gist* scope: Grants write access to gists. We use this in our gist feature, so you can highlight code and create gists directly from Visual Studio
-- *write:public_key* scope: Grants access to creating, listing, and viewing details for public keys. This will allows us to add ssh support to your repositories, if you are unable to go through https (this feature is not available yet, this scope is optional)
+- *gist* scope: Grants write access to gists. We use this in our gist feature, so you can highlight code and create gists directly from Visual Studio.
+- *write:public_key* scope: Grants access to creating, listing, and viewing details for public keys. This will allows us to add ssh support to your repositories, if you are unable to go through https (this feature is not available yet, this scope is optional).
 
-For more information on creating personal access tokens, see "[Creating a personal access token for the command line](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line). 
+For more information on creating personal access tokens, see "[Creating a personal access token for the command line](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line)". 
 
-For more information on authenticating with SAML single sign-on, see "[About authentication with SAML single sign-on](https://help.github.com/articles/about-authentication-with-saml-single-sign-on)."
+For more information on authenticating with SAML single sign-on, see "[About authentication with SAML single sign-on](https://help.github.com/articles/about-authentication-with-saml-single-sign-on)".
